@@ -3,7 +3,7 @@ import {Items1,Items2} from "./Items"
 
 class LandingPage extends Component {
     render() {
-        return <div className="mt-5">
+        return <div className="mt-5 p-5">
             <div className="columns">
                 {Items1.map((item, index) => {
                     return  <div className="column " key={index}>

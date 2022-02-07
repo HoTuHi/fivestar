@@ -1,39 +1,39 @@
-.parent{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.parent {
     display: grid;
     place-items: center;
 }
+
 .super-center .parent {
     display: grid;
     place-items: center;
 }
-.brand-logo{
+
+.brand-logo {
     font-family: Montserrat;
     font-style: italic;
     font-weight: 900;
     font-size: 36px;
-    color:  #130F26;
+    color: #130F26;
     line-height: 93px;
     /* identical to box height */
 
 }
-.company{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
 
-}
-.tuyendung{
+.tuyendung {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    color:  #130F26;
+    color: #130F26;
 }
-.bg-org{
-    background-color:   #FF7739;
+
+.bg-org {
+    background-color: #FF7739;
 }
-.so-tuyen-dung{
+
+.so-tuyen-dung {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -41,33 +41,36 @@
     /* identical to box height */
     color: #130F26;
 }
-.ten-nghe-nghiep{
+
+.ten-nghe-nghiep {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     /* identical to box height */
 }
+
 video {
     width: 100%;
     height: 80vh;
     object-fit: cover;
 }
-.gradient-video:before{
-    content:"";
+
+.gradient-video:before {
+    content: "";
     position: absolute;
-    z-index:1;
+    z-index: 1;
 }
 
 #home-top-video:before {
-    content:"";
+    content: "";
     position: absolute;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    z-index:1;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 #home-top-video {
@@ -86,9 +89,10 @@ video {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index:2;
+    z-index: 2;
 }
-#home-text h3{
+
+#home-text h3 {
     margin: 25px;
     text-align: center;
     font-size: 70px;
@@ -96,13 +100,15 @@ video {
     line-height: 1;
     color: white;
 }
-#home-text h4{
+
+#home-text h4 {
     font-size: 20px;
     text-align: center;
     line-height: 1;
     color: white;
 }
-.has-background-transparent> h3{
+
+.has-background-transparent > h3 {
     font-family: Montserrat;
     font-style: italic;
     font-weight: 900;
@@ -111,14 +117,17 @@ video {
     color: white;
     /* identical to box height */
 }
-.has-background-white > h3{
+
+.has-background-white > h3 {
     color: #130F26;
 }
+
 .has-background-transparent {
     background-color: transparent !important;
 
 }
-.has-background-transparent  > div > a.navbar-item > h3{
+
+.has-background-transparent > div > a.navbar-item > h3 {
     font-family: Montserrat;
     font-style: italic;
     font-weight: 900;
@@ -127,7 +136,8 @@ video {
     color: white;
     /* identical to box height */
 }
-.has-background-white  > div > a.navbar-item > h3 {
+
+.has-background-white > div > a.navbar-item > h3 {
     font-family: Montserrat;
     font-style: italic;
     font-weight: 900;
@@ -137,19 +147,32 @@ video {
     color: #FF7739;
 }
 
-.has-background-transparent >div > div.navbar-end > div > div > .is-primary{
+.has-background-transparent > div > div.navbar-end > div > div > .is-primary {
     /*border: 2px solid white !important;*/
     background-color: transparent !important;
     color: white !important;
 }
-.has-background-white  >div > div.navbar-end > div > div > .is-primary{
+
+.has-background-white > div > div.navbar-end > div > div > .is-primary {
     /*border: 2px solid #FF7739 !important;*/
     background-color: transparent !important;
     color: #FF7739 !important;
 }
-.has-background-white >div > div.navbar-end > div > div > .button{
+
+.has-background-white > div > div.navbar-end > div > div > .button {
     border: 2px solid #FF7739 !important;
 }
-.has-background-transparent >div  > div.navbar-end > div > div > .button{
+
+.has-background-transparent > div > div.navbar-end > div > div > .button {
     border: 2px solid white !important;
+}
+div.columns > div:nth-child(2) > iframe{
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+}
+.video-area{
+    /*border-radius: 25px;*/
+    border:20px solid white;
+
 }
